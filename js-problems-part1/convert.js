@@ -21,7 +21,18 @@ function inchToFeet2(inch) {
 
 const shovoHeight = inchToFeet(75);
 // console.log(shovoHeight);
+
 const shovoHeight2 = inchToFeet2(75);
+
+
+
+
+
+
+
+
+
+
 
 console.log(shovoHeight2);
 
@@ -31,7 +42,14 @@ function mileToKilometer(mile) {
   return kilo;
 }
 
-function kiloMeterToMiles() {
+
+
+
+
+
+
+function kiloMeterToMiles(kilo
+) {
   const miles = kilo * 0.621371;
-  return mile;
+  return miles;
 }
