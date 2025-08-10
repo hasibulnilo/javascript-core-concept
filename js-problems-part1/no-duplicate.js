@@ -3,10 +3,6 @@
  *[]
  */
 
-
-
-
-
 function noDuplicate(array) {
   const unique = [];
 
@@ -28,6 +24,6 @@ const biriyaniKhor = [
   "kabul",
   "cabul",
 ];
-const uniqueArray = noDuplicate( biriyaniKhor);
+const uniqueArray = noDuplicate(biriyaniKhor);
 // const numbers = [1, 5, 61, 5, 87, 7];
 console.log(uniqueArray);
