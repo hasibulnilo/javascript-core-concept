@@ -13,14 +13,10 @@ function woodQuantity(chairQuantity, tableQuantity, bedQuantity) {
   const tableTotalWood = tableQuantity * perTableWood;
   const bedTotalwood = bedQuantity * perBedWood;
 
-
-
-  const totalWood = allChairWood + tableTotalWood + bedTotalwood; 
+  const totalWood = allChairWood + tableTotalWood + bedTotalwood;
 
   return totalWood;
-} 
+}
 
-const wood = woodQuantity(0,0,1);
-console.log('wood needed', wood);
-
-
+const wood = woodQuantity(0, 0, 1);
+console.log("wood needed", wood);
