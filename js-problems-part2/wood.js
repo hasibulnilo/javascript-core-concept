@@ -22,3 +22,5 @@ function woodQuantity(chairQuantity, tableQuantity, bedQuantity) {
 
 const wood = woodQuantity(0,0,1);
 console.log('wood needed', wood);
+
+
