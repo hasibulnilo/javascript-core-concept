@@ -12,13 +12,11 @@ function discountPrice(quantity) {
   } else if (quantity <= 200) {
     const total = quantity * 90;
     return total;
-  }else{
-
+  } else {
     const total = quantity * 70;
-    return total; 
+    return total;
   }
 }
-
 
 const total = discountPrice(50);
 console.log(total);
